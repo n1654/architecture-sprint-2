@@ -2,34 +2,12 @@
 
 ## Как запустить
 
-Запускаем mongodb и приложение
+Инструкции для запуска окружения под соответствующие задания:
 
-```shell
-docker compose up -d
-```
+ - [Задание 2. Шардирование](https://github.com/n1654/architecture-sprint-2/blob/hometask/mongo-sharding/README.md)
+ - [Задание 3. Репликация](https://github.com/n1654/architecture-sprint-2/blob/hometask/mongo-sharding-repl/README.md)
+ - [Задание 4. Кэширование](https://github.com/n1654/architecture-sprint-2/blob/hometask/sharding-repl-cache/README.md)
 
-Заполняем mongodb данными
+## Cхема
 
-```shell
-./scripts/mongo-init.sh
-```
-
-## Как проверить
-
-### Если вы запускаете проект на локальной машине
-
-Откройте в браузере http://localhost:8080
-
-### Если вы запускаете проект на предоставленной виртуальной машине
-
-Узнать белый ip виртуальной машины
-
-```shell
-curl --silent http://ifconfig.me
-```
-
-Откройте в браузере http://<ip виртуальной машины>:8080
-
-## Доступные эндпоинты
-
-Список доступных эндпоинтов, swagger http://<ip виртуальной машины>:8080/docs
+ - [Схема](https://github.com/n1654/architecture-sprint-2/blob/hometask/task1.drawio)
